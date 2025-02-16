@@ -1,0 +1,61 @@
+.successMessage {
+  text-align: center;
+  color: #cead6d;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.textArea {
+  height: 250px;
+}
+
+.contactSubmitButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 7px 16px;
+  background-color: #bacbdb;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.contactSubmitButton:hover {
+  background-color: #cead6d;
+  transform: scale(1.1, 1.1);
+}
+
+.disabledSubmitButton {
+  opacity: 0.7;
+  cursor: not-allowed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 7px 16px;
+  background-color: #bacbdb;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  z-index: 10000 !important;
+}
+
+.disabledButtonMessage {
+  display: none;
+  color: #cc3300;
+}
+.disabledSubmitButton[disabled]:hover + .disabledButtonMessage {
+  display: flex;
+  justify-content: center;
+}
+
+.toasSuccessMessage {
+  text-align: center;
+}

@@ -1,0 +1,96 @@
+.firstCaruselHero {
+  position: relative;
+  background-position: right 0% bottom 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 40px;
+  border-radius: 15px;
+  position: relative;
+  height: 500px;
+  line-height: 0.9;
+  width: 100%;
+  border-radius: 15px;
+}
+.bannerImage {
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.firstCaruselHero h1 {
+  color: white;
+  font-size: 10em;
+  margin-left: -20px;
+  text-transform: uppercase;
+}
+
+.firstCaruselHero h2 {
+  color: white;
+  font-size: 4em;
+}
+
+.firstCaruselHero h3 {
+  font-size: 1.5rem;
+  margin-top: 4px;
+  margin-top: 20px;
+}
+
+.firstCaruselHero button {
+  border-radius: 15px;
+  padding: 10px 16px;
+  background-color: #cead6d;
+  color: white;
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  z-index: 10000 !important;
+}
+
+.heroBannerText {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 30px 50px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .firstCaruselHero h2 {
+    font-size: 2.2rem;
+  }
+  .firstCaruselHero h3 {
+    font-size: 1rem;
+  }
+  .hero-banner-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+  }
+}
+
+/* .first-carusel-hero h3 {
+  font-size: 1.5rem;
+  margin-top: 4px;
+  margin-top: 20px;
+} */
+
+/* .first-carusel-hero h1 {
+  color: white;
+  font-size: 10em;
+  margin-left: -20px;
+  text-transform: uppercase;
+} */
+
+/* .first-carusel-hero h2 {
+  color: white;
+  font-size: 4em;
+} */

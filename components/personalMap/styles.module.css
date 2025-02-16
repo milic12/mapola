@@ -1,0 +1,208 @@
+.formAndButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lockChanges {
+  pointer-events: none;
+  opacity: 0.4;
+  margin-top: 30px;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20% 0 20%;
+}
+
+.personalCardContainer {
+  margin-top: 30px;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20% 0 20%;
+}
+
+.frontBackButtons {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px 25px 0px;
+}
+
+.productMapText {
+  margin: 5px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.lockChangesButtons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.lockIcons {
+  margin-left: 5px;
+  color: #cead6d;
+}
+
+.spinnerLockLoading {
+  margin-top: 15px;
+  color: #cead6d;
+}
+
+.hideBackSide {
+  display: block;
+}
+
+.hideFrontSide {
+  display: none;
+}
+
+.mapContainerDarkLandscape {
+  background: url("../../public/images/frames/rustikal.jpeg");
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+  border: #670a0a solid 25px;
+  border-image: url("../../public/images/frames/rustikal.jpeg") 100 stretch;
+  position: relative;
+}
+
+.mapContainerDark {
+  background: url("../../public/images/frames/rustikal.jpeg");
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  border: #670a0a solid 25px;
+  border-image: url("../../public/images/frames/rustikal.jpeg") 100 stretch;
+  position: relative;
+}
+
+.mapContainerYellowLandscape {
+  background: url("../../public/images/frames/hrast.jpeg");
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+  border: #670a0a solid 25px;
+  border-image: url("../../public/images/frames/hrast.jpeg") 200 stretch;
+  position: relative;
+}
+
+.mapContainerYellow {
+  background: url("../../public/images/frames/hrast.jpeg");
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  border: #670a0a solid 25px;
+  border-image: url("../../public/images/frames/hrast.jpeg") 210 stretch;
+  position: relative;
+}
+
+.mapContainerDarkBackLandscape {
+  background: url("../../public/images/frames/topola1.jpeg");
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+  border: #670a0a solid 25px;
+  border-image: url("../../public/images/frames/rustikal.jpeg") 150 stretch;
+  position: relative;
+}
+
+.mapContainerDarkBack {
+  background: url("../../public/images/frames/topola1.jpeg");
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  border: #670a0a solid 25px;
+  border-image: url("../../public/images/frames/rustikal.jpeg") 150 stretch;
+  position: relative;
+}
+
+.mapContainerYellowBackLandscape {
+  background: url("../../public/images/frames/topola1.jpeg");
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+  border: #670a0a solid 25px;
+  border-image: url("../../public/images/frames/hrast.jpeg") 150 stretch;
+  position: relative;
+}
+
+.mapContainerYellowBack {
+  background: url("../../public/images/frames/topola1.jpeg");
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  border: #670a0a solid 25px;
+  border-image: url("../../public/images/frames/hrast.jpeg") 150 stretch;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .personalCardContainer {
+    padding: 0 0 0 0;
+  }
+  .lockChanges {
+    padding: 0 0 0 0;
+  }
+
+  .productMapText {
+    margin: 10px;
+  }
+
+  .mapContainerDark {
+    height: 320px;
+    max-width: 320px;
+  }
+
+  .mapContainerDarkLandscape {
+    height: 256px;
+    width: 320px;
+  }
+
+  .mapContainerYellow {
+    height: 320px;
+    max-width: 320px;
+  }
+
+  .mapContainerYellowLandscape {
+    height: 256px;
+    width: 320px;
+  }
+
+  .mapContainerBack {
+    height: 320px;
+    max-width: 320px;
+  }
+
+  .mapContainerBackLandscape {
+    height: 256px;
+    width: 320px;
+  }
+
+  .mapContainerDarkBack {
+    height: 320px;
+    max-width: 320px;
+  }
+
+  .mapContainerDarkBackLandscape {
+    height: 256px;
+    width: 320px;
+  }
+
+  .mapContainerYellowBack {
+    height: 320px;
+    max-width: 320px;
+  }
+
+  .mapContainerYellowBackLandscape {
+    height: 256px;
+    width: 320px;
+  }
+}

@@ -1,0 +1,8 @@
+.errorFormMessage {
+  color: red;
+  text-align: center;
+}
+
+.imagelogo {
+  object-fit: contain;
+}

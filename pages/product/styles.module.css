@@ -1,0 +1,162 @@
+.productDetailDesc {
+  width: 768px;
+  padding: 0px 15px;
+}
+.productDetailDesc h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+.productDetailDesc h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.productDetailDesc h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.productDetailDesc h4 {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.productDetailDesc p {
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.productDetailDesc .quantity {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+/* .quantity {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  align-items: center;
+} */
+
+.quantityDesc {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 6px;
+}
+
+.quantityDesc span {
+  font-size: 16px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.quantityDesc .minus {
+  border-right: 1px solid gray;
+  color: #f02d34;
+}
+
+.quantityDesc .num {
+  border-right: 1px solid gray;
+  font-size: 20px;
+}
+
+.quantityDesc .plus {
+  color: rgb(49, 168, 49);
+}
+
+.productDetailDesc .buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.buttons .addToCart {
+  padding: 10px 20px;
+  border: 1px solid #cead6d;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: white;
+  color: #cead6d;
+  cursor: pointer;
+  width: 200px;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+.buttons .addToCart:hover {
+  transform: scale(1.1, 1.1);
+}
+.buttons .buyNow {
+  width: 200px;
+
+  padding: 10px 20px;
+  background-color: #cead6d;
+  color: white;
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+
+.buttons .buyNow:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.quantity-des .buttons .add-to-cart {
+  width: 150px;
+}
+
+/* .buttons .buyNow {
+  width: 150px;
+} */
+
+.boxDescriptionText {
+  margin-top: 10px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 26px;
+  margin-top: 30px;
+  color: #9e9b98;
+}
+
+.productDetailDesc .quantity {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  align-items: center;
+}
+.productDetailDesc .buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.giftCheckBox {
+  margin-top: 20px;
+  color: #cead6d;
+}
+
+@media screen and (max-width: 768px) {
+  .productDetailDesc {
+    width: 100%;
+    padding: 0px 15px;
+  }
+  .buttons .buyNow {
+    width: 150px;
+    font-size: 16px;
+  }
+  .buttons .addToCart {
+    width: 150px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .productDetailDesc h1 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+}

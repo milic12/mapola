@@ -1,0 +1,143 @@
+.footerBannerContainer {
+  padding: 100px 40px;
+  background-color: #cead6d;
+  border-radius: 15px;
+  position: relative;
+  height: 450px;
+  line-height: 1;
+  color: white;
+  width: 100%;
+  margin-top: 120px;
+}
+.bannerDesc {
+  display: flex;
+  justify-content: space-between;
+}
+.bannerDesc button {
+  border-radius: 15px;
+  padding: 10px 16px;
+  background-color: white;
+  color: red;
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.bannerDesc button:hover {
+  border-radius: 15px;
+  padding: 10px 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+.bannerDesc .left {
+  z-index: 2;
+}
+.bannerDesc .left h3 {
+  font-weight: 900;
+  font-size: 80px;
+  margin-left: 0px;
+  z-index: 2;
+}
+.bannerDesc .left p {
+  margin: 18px 0 18px 0;
+  z-index: 2;
+}
+.footerBannerImage {
+  position: absolute;
+  top: -20%;
+  left: 15%;
+  z-index: 1;
+}
+.bannerDesc .right {
+  line-height: 1.4;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 30%;
+}
+.bannerDesc .right h3 {
+  font-weight: 800;
+  font-size: 60px;
+}
+.bannerDesc .right p {
+  font-size: 18px;
+}
+.bannerDesc .right .company-desc {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 1024px) {
+  .footerBannerContainer {
+    padding: 50px 40px;
+    height: 620px;
+  }
+
+  .footer-banner-container {
+    height: 620px;
+  }
+
+  .bannerDesc {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .bannerDesc .right {
+    margin-left: 0%;
+  }
+  .footerBannerImage {
+    top: 25%;
+    left: 40%;
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footerBannerContainer {
+    padding: 60px 40px;
+  }
+
+  .footer-banner-container {
+    height: 560px;
+    margin-top: 80px;
+  }
+  .footerBannerImage {
+    width: 45%;
+    left: 45%;
+    top: 35%;
+    height: auto;
+  }
+
+  .bannerDesc .left h3 {
+    font-weight: 900;
+    font-size: 50px;
+    margin-left: 5px;
+    z-index: 2;
+  }
+  .bannerDesc .left p {
+    margin: 18px;
+    z-index: 2;
+  }
+  .bannerDesc .right h3 {
+    font-size: 35px;
+  }
+  .bannerDesc .right p {
+    font-size: 18px;
+  }
+  .bannerDesc .right .company-desc {
+    font-size: 14px;
+  }
+  .bannerDesc {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}

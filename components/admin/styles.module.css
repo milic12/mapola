@@ -1,0 +1,24 @@
+.adminBanner {
+  padding: 100px 40px;
+  background-color: #e1dce0;
+  background-image: url("../../public/images/admin.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 100%;
+  border-radius: 15px;
+  position: relative;
+  height: 500px;
+  line-height: 0.9;
+  width: 100%;
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); */
+  padding-bottom: 10%;
+}
+.pagination {
+  display: flex;
+  flex-direction: "row";
+}
+.spinnerStyle {
+  display: flex;
+  /* align-self: center; */
+  justify-content: center;
+}

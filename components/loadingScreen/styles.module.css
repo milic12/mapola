@@ -1,0 +1,44 @@
+.loaderWrapper {
+  position: relative;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+}
+
+.animationWrapper {
+  position: relative;
+}
+
+.pulseRing {
+  content: "";
+  width: 300px;
+  height: 300px;
+  border: 5px solid #cead6d;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: -0px;
+  left: 0%;
+  right: 0;
+  animation: pulse infinite 1s;
+}
+
+@keyframes pulse {
+  from {
+    stroke-width: 3px;
+    stroke-opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    stroke-width: 0;
+    stroke-opacity: 0;
+    transform: scale(1.1);
+  }
+}

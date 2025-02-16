@@ -1,0 +1,23 @@
+.textArea {
+  height: 250px;
+}
+
+.contactSubmitButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 7px 16px;
+  background-color: #bacbdb;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.contactSubmitButton:hover {
+  background-color: #cead6d;
+  transform: scale(1.1, 1.1);
+}
